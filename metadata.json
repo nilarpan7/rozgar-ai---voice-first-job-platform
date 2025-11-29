@@ -1,0 +1,8 @@
+{
+  "name": "Rozgar AI - Voice-First Job Platform",
+  "description": "India's simplest job platform connecting blue-collar workers with local employers using voice AI. Find jobs in under 60 seconds.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

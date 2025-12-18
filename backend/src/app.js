@@ -7,9 +7,11 @@ import { aiRouter } from "./routes/ai.routes.js";
 const app = express();
 
 app.use(helmet());
+
 app.use(
   cors({
-    origin: process.env.FRONTEND_ORIGIN || "http://localhost:3000",
+    // In development, reflect the request origin (allows any localhost port)
+    origin: true,
     credentials: true,
   })
 );

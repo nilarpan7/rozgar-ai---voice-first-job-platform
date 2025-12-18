@@ -2,7 +2,7 @@
 import { GeminiParsedIntent } from "../types";
 
 const API_BASE =
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api/ai";
+  import.meta.env.VITE_API_URL || "http://localhost:5001/api/ai";
 
 export const parseVoiceInput = async (
   transcript: string,
